@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E Commerce</title>
+    <link rel="stylesheet" href="Assets/CSS/Ecommerce.css" />
+    <link rel="stylesheet" href="Assets/CSS/Responsif css/contents.css" />
+    <link rel="stylesheet" href="Assets/CSS/Responsif css/Potrait.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <nav class="navbar">
+          <div class="right">
+            <img src="FotoEcommerce/FOTO LOGO.jpeg" alt="" />
+            <div class="idaninput">
+              <div>
+                <label for="cari">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
+              </div>
+              <div>
+                <input type="text" placeholder="Search..." id="cari" />
+              </div>
+            </div>
+          </div>
+          <div class="left">
+            <ul>
+              <li>
+                <a href="#"
+                  >Type <i class="fa-solid fa-angle-down" onclick="tipe()"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  >Location <i class="fa-solid fa-location-dot"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#">Help <i class="fa-solid fa-question"></i></a>
+              </li>
+              <li>
+                <a href="#">Log <i class="fa-solid fa-lock"></i></a>
+              </li>
+              <li>
+                <a href="#">Register <i class="fa-solid fa-user"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+            </ul>
+            <div class="potrait">
+              <div class="hamburger-menu">
+                <a href="#" onclick="bars()">
+                  <i class="fa-solid fa-bars"></i>
+                </a>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="contents-wrap" id="contentsWrap">
+          <div class="contents">
+            <img src="FotoEcommerce/CONTENTS1.jpg" alt="" />
+            <h3>Brokes</h3>
+            <h4>$2.5</h4>
+          </div>
+          <div class="contents">
+            <img src="FotoEcommerce/CONTENTS2.jpg" alt="" />
+            <h3>Soldier</h3>
+            <h4>$1.1</h4>
+          </div>
+          <div class="contents">
+            <img src="FotoEcommerce/CONTENTS3.jpg" alt="" />
+            <h3>Ja1</h3>
+            <h4>$2.5</h4>
+          </div>
+          <div class="contents">
+            <img src="FotoEcommerce/CONTENTS4.jpg" alt="" />
+            <h3>Bloops</h3>
+            <h4>$1.1</h4>
+          </div>
+          <div class="contents">
+            <img src="FotoEcommerce/CONTENTS5.jpg" alt="" />
+            <h3>Fallen</h3>
+            <h4>$2.0</h4>
+          </div>
+          <div class="contents">
+            <img src="FotoEcommerce/CONTENTS6.jpg" alt="" />
+            <h3>Nsky</h3>
+            <h4>$1.6</h4>
+          </div>
+          <div class="contents">
+            <img src="FotoEcommerce/CONTENTS7.jpg" alt="" />
+            <h3>Husk</h3>
+            <h4>$2.0</h4>
+          </div>
+          <div class="contents">
+            <img src="FotoEcommerce/CONTENTS8.jpg" alt="" />
+            <h3>Jhontor</h3>
+            <h4>$1.6</h4>
+          </div>
+          <div class="contents">
+            <img src="FotoEcommerce/CONTENTS9.jpg" alt="" />
+            <h3>Anto</h3>
+            <h4>$2.0</h4>
+          </div>
+        </div>
+
+        <div class="potrait">
+          <div class="responsif-menu">
+            <div class="menu-dropdown" id="dropdown">
+              <ul>
+                <li>
+                  <a href="#" onclick="typebtn()">Type</a>
+                </li>
+                <li>
+                  <a href="#">Location</a>
+                </li>
+                <li>
+                  <a href="#">Help</a>
+                </li>
+                <li>
+                  <a href="#">Register</a>
+                </li>
+              </ul>
+            </div>
+            <div class="type-class" id="type">
+              <ul>
+                <li class="kecuali"><a onclick="menBtn()" href="#">Men</a></li>
+                <li class="kecut">
+                  <a onclick="womenBtn()" href="#">Women</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mid">
+          <h1>KERUSAKAN JUGA</h1>
+          <h1 style="color: crimson">SENI!</h1>
+        </div>
+      </div>
+      <footer>
+        <div class="konten-men" id="men">
+          <div class="men1">
+            <img src="FotoEcommerce/men1.jpg" alt="" />
+            <label for="">Broken pioneer</label>
+            <center>
+              <div class="batas"></div>
+            </center>
+            <label class="harga" for="">$2.5</label>
+          </div>
+          <div class="men2">
+            <img src="FotoEcommerce/men2.jpg" alt="" />
+            <label for="">Wings Of Broke</label>
+            <center>
+              <div class="batas"></div>
+            </center>
+            <label class="harga" for="">$1.5</label>
+          </div>
+          <div class="men3">
+            <img src="FotoEcommerce/men3.jpg" alt="" />
+            <label for="">Laylas</label>
+            <center>
+              <div class="batas"></div>
+            </center>
+            <label class="harga" for="">$2.2</label>
+          </div>
+        </div>
+        <div class="konten-women" id="women">
+          <div class="women1">
+            <img src="FotoEcommerce/women1.jpg" alt="" />
+            <label for="">Mia</label>
+            <center>
+              <div class="batas"></div>
+            </center>
+            <label class="harga" for="">$2.5</label>
+          </div>
+          <div class="women2">
+            <img src="FotoEcommerce/women2.jpg" alt="" />
+            <label for="">Eudora</label>
+            <center>
+              <div class="batas"></div>
+            </center>
+            <label class="harga" for="">$1.5</label>
+          </div>
+          <div class="women3">
+            <img src="FotoEcommerce/women3.jpg" alt="" />
+            <label for="">Odette</label>
+            <center>
+              <div class="batas"></div>
+            </center>
+            <label class="harga" for="">$2.2</label>
+          </div>
+        </div>
+      </footer>
+      <div class="kaki" id="kaki">
+        <div class="kiris">
+          <p>Follow Us</p>
+          <span
+            ><i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i
+          ></span>
+        </div>
+        <div class="kanans">@2023 FAILSHOE - ALL RIGHTS RESERVED</div>
+      </div>
+    </div>
+    <script src="Assets/Javascript/Ecommerce.js"></script>
+  </body>
+</html>

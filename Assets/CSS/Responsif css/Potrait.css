@@ -1,0 +1,209 @@
+.kecuali {
+  background-color: rgb(202, 202, 202);
+}
+.kecut {
+  background-color: crimson;
+}
+/* kecuali */
+
+/* RPOTRAIT */
+.hamburger-menu {
+  position: absolute;
+  right: 3%;
+  top: 27%;
+
+  display: flex;
+  justify-content: space-between;
+
+  width: 10%;
+}
+
+.hamburger-menu a {
+  color: black;
+}
+
+.menu-dropdown {
+  position: absolute;
+  left: 81%;
+
+  overflow: hidden;
+  max-height: 0;
+
+  transition: max-height 2s;
+}
+
+.open-bars {
+  max-height: 200px;
+}
+
+.menu-dropdown li {
+  list-style-type: none;
+
+  padding: 8px;
+  background-color: rgb(220, 20, 60, 0.9);
+  border: 1px solid black;
+
+  border-radius: 3px 3px 3px 3px;
+
+  transition: 1.2s;
+}
+
+.menu-dropdown li:hover {
+  background-color: rgb(202, 202, 202);
+  padding: 12px;
+
+  color: black;
+}
+
+.menu-dropdown li a {
+  text-decoration: none;
+  color: white;
+}
+.menu-dropdown li a:hover {
+  color: black;
+}
+
+/* TYPE MENU */
+.type-class {
+  position: absolute;
+
+  width: 60%;
+  display: none;
+}
+
+.type-class ul {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 5px;
+}
+
+.type-class li {
+  list-style-type: none;
+
+  width: 50px;
+  text-align: center;
+  padding: 10px;
+
+  border-radius: 7px 7px 7px 7px;
+}
+.type-class li a {
+  text-decoration: none;
+  color: black;
+}
+/* END OF TYPE MENU */
+
+/* MID */
+.mid {
+  position: absolute;
+
+  width: 60%;
+  height: auto;
+
+  top: 45%;
+  left: 20%;
+}
+
+.mid h1 {
+  color: white;
+  font-family: "Black Ops One", cursive;
+}
+/* END OF MID */
+
+/* FOOTER */
+/* MEN */
+.konten-men {
+  display: none;
+}
+
+.konten-men img {
+  width: 100%;
+  height: 200px;
+
+  border-radius: 10px 10px 0px 0px;
+}
+.men1,
+.men2,
+.men3 {
+  width: 50%;
+
+  box-shadow: 2px 2px 2px 2px gray;
+  display: block;
+
+  text-align: center;
+  margin: 20px 150px 20px 150px;
+
+  border-radius: 10px;
+}
+.batas {
+  width: 15%;
+  height: 0;
+  border: 1px solid black;
+
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.men1 label,
+.men2 label,
+.men3 label {
+  margin-top: 7px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.harga {
+  color: crimson;
+}
+/* END OF MEN */
+
+/* WOMEN */
+.konten-women {
+  display: none;
+}
+
+.konten-women img {
+  width: 100%;
+  height: 200px;
+
+  border-radius: 10px 10px 0px 0px;
+}
+.women1,
+.women2,
+.women3 {
+  width: 50%;
+
+  box-shadow: 2px 2px 2px 2px gray;
+  display: block;
+
+  text-align: center;
+  margin: 20px 150px 20px 150px;
+
+  border-radius: 10px;
+}
+.batas {
+  width: 15%;
+  height: 0;
+  border: 1px solid black;
+
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.women1 label,
+.women2 label,
+.women3 label {
+  margin-top: 7px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.harga {
+  color: crimson;
+}
+/* END OF WOMEN */
+/* END OF FOOTER */
+
+/* END OF POTRAIT */
+
+@media (max-width: 567px) {
+  .konten-men {
+    width: 30%;
+  }
+}
